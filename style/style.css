@@ -88,6 +88,80 @@ header{
 .vision{
     color: #01ACFD;
 }
+/*card style*/
+.card-headline{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.cards{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    background-image: url(../assets/bg.png);
+    background-repeat: no-repeat;
+}
+
+.card-design{
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    gap:10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.each-card{
+    text-align: center;
+    border-radius: 18px;
+    padding: 20px;
+    width: 367px;
+    height: 476px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+
+}
+.each-card>img{
+    width: 136px;
+    width: 136px;
+}
+.blue-gradient{
+    background: linear-gradient(#DEF5FF,2%,white);
+    border-style: solid;
+    border-color: #DEF5FF;
+
+}
+.orange-gradient{
+    background: linear-gradient(#FFF4DC,2%,white);
+    border-style: solid;
+    border-color: #FFF4DC;
+
+}
+.purple-gradient{
+    background: linear-gradient(#F2E8FF,2%,white);
+    border-style: solid;
+    border-color: #F2E8FF;
+    
+}
+.circle{
+    background-color: #FEA301;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
 
 
 
@@ -130,6 +204,18 @@ header{
     .hero_kid{
         max-width: 100%;
     }
-
+    .card-design{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .card-headline{
+        
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .slider{
+        display: none;
+    }
 }
 
