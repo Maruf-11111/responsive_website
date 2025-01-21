@@ -1,4 +1,8 @@
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
 header{
     margin-left: 4rem;
    margin-right: 4rem;
@@ -75,6 +79,11 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 .hero_kid{
     max-width: 50%;
@@ -164,6 +173,192 @@ header{
 }
 
 
+footer{
+    background-color: #01ACFD;
+    height: 519px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footers{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    gap: 20px;
+    padding: 4rem;
+    
+    
+    color: white;
+    
+    
+    
+}
+.footer-heading{
+    display: flex;
+    margin-bottom: 20px;
+    
+
+
+}
+.footer-menu>ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+
+}
+.all-logo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+
+   
+    
+  
+    
+}
+.footer-media{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+    
+    
+
+}
+/*
+.story-card{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4em;
+    margin-right: 4em;
+    
+    
+
+}
+
+.big-card{
+    position: relative;
+   
+    
+}
+.big-card-img{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.small-card{
+    position: relative;
+    }
+
+    
+.date{
+    height: 47px;
+    width: 174px;
+    border-radius: 47px;
+    background-color: #01ACFD;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 314px;
+    left: 40px;
+}
+.small-date{
+    height: 40px;
+    width: 160px;
+    border-radius: 47px;
+    background-color: #01ACFD;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 120px;
+    left: 40px;
+}
+
+.head{
+    padding: 0;
+}
+.small-cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    
+}
+.small-card > img {
+    width: 50%;
+}
+    */
+    .story{
+        display: flex;
+         justify-content: space-around;
+       
+        margin-left: 4em;
+        margin-right: 4em;
+        margin-top: 4em;
+        
+       
+        
+        
+        
+        
+    
+    }
+    .story-bg{
+      background-image: url(../assets/bg.png);
+      background-color: rgba(255,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 30px;
+        
+        
+    
+    }
+    
+    .story-brief{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding-left: 20px;
+    
+    }
+    .small-cards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+        
+    }
+    .small-card{
+        border-radius: 20px;
+        background-color: white;
+
+    }
+    .big-card{
+        border-radius: 20px;
+        background-color: white;
+    }
+    .mid-btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+        margin-bottom: 60px;
+    }
+    
+
+
+
+
 
 
 
@@ -193,13 +388,20 @@ header{
         justify-content: space-between;
         
     }
-    .banner{
+    .banner
+    {
         margin-left: 2rem;
         margin-right: 2rem;
         flex-direction: column-reverse;
     }
-    .details{
+    .details
+    {
         text-align: center;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .hero_kid{
         max-width: 100%;
@@ -217,5 +419,25 @@ header{
     .slider{
         display: none;
     }
+    .footers{
+        display: flex;
+        flex-direction: column;
+    }
+    .big-card{
+        display: none;
+    }
+    .small-card {
+        width: 173px;
+        height: 179px;
+        
+    }
+    .small-card>img{
+        width: 100%;
+    }
+    .story-brief{
+        margin: 5px;
+        padding: 2px;
+    }
+
 }
 
