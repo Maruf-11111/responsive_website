@@ -1,0 +1,135 @@
+
+header{
+    margin-left: 4rem;
+   margin-right: 4rem;
+   
+    
+  
+    
+}
+/*Styling for Header Section */
+.top{
+
+    
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+}
+
+.image {
+    height: 4rem;
+    width: 4rem;
+    margin-left: 5px;
+    
+}
+.logo{
+    display: flex;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    gap: 3em;
+    list-style-type: none;
+    margin-left: 162px;
+    margin-right: 162px;
+}
+.nav>li>a{
+    text-decoration: none;
+
+}
+.nav>li{
+    text-decoration: none;
+    
+}
+.contact_btn{
+    background-color: #FEA301;
+    border-radius: 12px;
+    color: white;
+    height: 50px;
+    width: 197px;
+    font-size: 20px;
+
+}
+.black_btn{
+    background-color: black;
+    border-radius: 12px;
+    color: white;
+    height: 50px;
+    width: 197px;
+    font-size: 20px;
+
+}
+.mobile_menu{
+    display: none;
+}
+
+/*banner section design */
+
+.banner{
+    margin-top: 20px;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero_kid{
+    max-width: 50%;
+    
+
+     
+}
+.empower{
+    color: #FEA301;
+}
+.vision{
+    color: #01ACFD;
+}
+
+
+
+
+
+@media  (max-width: 576px ) {
+    header{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .school{
+        display: none;
+    }
+   
+ 
+    
+    .nav{
+        display: none;
+        
+    }
+    .contact_btn{
+        display: none;
+    }
+    .mobile_menu{
+        padding: 20px;
+        display: flex;
+    }
+    .top{
+        justify-content: space-between;
+        
+    }
+    .banner{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        flex-direction: column-reverse;
+    }
+    .details{
+        text-align: center;
+    }
+    .hero_kid{
+        max-width: 100%;
+    }
+
+}
+
