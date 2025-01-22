@@ -536,11 +536,7 @@ footer{
     .big-card{
         display: none;
     }
-    .small-card {
-        width: 173px;
-        height: 179px;
-        
-    }
+    
     .small-card>img{
         width: 100%;
     }
@@ -549,10 +545,17 @@ footer{
         padding: 2px;
     }
     .small-card{
-        width: 40vw;
+        width: 38vw;
     }
     .story-brief>h4{
         font-size: 2vw;
+    }
+    .small-date{
+        font-size: 10px;
+    }
+    main>marquee{
+       display: none;
+      
     }
     
 
